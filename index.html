@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exclusive Invitation: Data Center World Asia 2025 - Best Power Equipments (BPE)</title>
+  <style>
+   
+    body {
+      margin: 0;
+      padding: 40px 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+   
+    .box {
+      background-color: #ffffff;
+      max-width: 650px;
+      width: 95%;
+      padding: 0;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+      box-sizing: border-box;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    /* Inner Content Padding */
+    .content-area {
+      padding: 35px 40px 40px; /* Increased top padding */
+    }
+
+    /* Header Image (Banner) */
+    .top-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Typography */
+    p {
+      text-align: left;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    
+    .p-center {
+        text-align: center;
+    }
+
+    h1 {
+      font-size: 30px; /* Slightly larger title */
+      color: #1a237e;
+      margin: 20px 0 10px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 24px; /* Slightly larger sub-header */
+      color: #1a237e;
+      margin: 35px 0 15px; /* Increased margin */
+      font-weight: 600;
+    }
+    
+    .company-name {
+        color: #006400; 
+        font-weight: bold;
+    }
+
+    
+    .event-info {
+      background-color: #f0f3ff; 
+      padding: 25px;
+      border-radius: 8px;
+      margin: 30px 0;
+      border-left: 5px solid #1a237e;
+    }
+
+    .event-date {
+      font-size: 22px;
+      color: #1a237e;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .time-location {
+      color: #555555;
+      font-size: 17px; 
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .booth {
+      font-size: 22px;
+      font-weight: 700;
+      color: #e65100;
+      padding: 8px 20px;
+      display: inline-block;
+      background-color: #fff;
+      border: 3px solid #e65100;
+      border-radius: 50px; 
+      letter-spacing: 1px;
+    }
+
+    
+    .register-button {
+      display: inline-block;
+      background-color: #e65100; 
+      background-image: linear-gradient(to right, #ff7e5f, #e65100);
+      
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 40px; 
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 6px;
+      margin: 30px 0;
+      box-shadow: 0 4px 10px rgba(230, 81, 0, 0.4); 
+      transition: all 0.3s ease; 
+    }
+    .register-button:hover {
+      background-image: linear-gradient(to right, #ff8a3d, #ff6622);
+      opacity: 0.95;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(230, 81, 0, 0.5); 
+    }
+
+    /* Features Section */
+    .features {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .feature-box {
+      flex: 1 1 calc(50% - 10px);
+      padding: 20px; /* More padding */
+      border-radius: 8px;
+      color: #fff;
+      font-size: 15px;
+      line-height: 1.5;
+      box-sizing: border-box;
+      background-color: #1a237e; 
+      /* Feature Box Gradient: Professional deep blue */
+      background-image: linear-gradient(135deg, #1a237e 0%, #303f9f 100%);
+      
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .feature-box ul {
+      list-style-type: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    .feature-box li {
+      margin-bottom: 0;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .feature-box li::before {
+      content: '✓';
+      color: #ffc107; /* Bright checkmark for visibility */
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+
+    /* About Section */
+    .section-title {
+      margin: 35px 0 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a237e;
+      border-bottom: 3px solid #e0e0e0;
+      padding-bottom: 8px;
+    }
+
+    .about-text {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #555555;
+      text-align: left;
+    }
+
+    /* Website Button - New Professional Green */
+    .website-button {
+      display: inline-block;
+      background-color: #006400; /* Darker, professional green */
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+    .website-button:hover {
+      background-color: #008000;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #1a237e;
+      padding: 25px 40px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #ffffff;
+      text-align: center;
+    }
+    .footer a {
+      color: #ffc107; /* Yellow accent in footer */
+      text-decoration: none;
+    }
+    
+    @media (max-width: 480px) {
+        .feature-box {
+            flex: 1 1 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="top-image">
+      <img src="https://cdn.asp.events/CLIENT_CloserSt_D86EA381_5056_B739_5482D50A1A831DDD/sites/DCWS-2023/media/libraries/exhibitors/b784e77a-06a7-11ef-b52-06bd0f937899-cover-image.jpg/fit-in/1500x9999/filters:no_upscale()" alt="Data Center World Asia 2025" />
+    </div>
+
+    <div class="content-area">
+      <h1>Exclusive Invitation to Data Center World Asia 2025</h1>
+
+      <p>
+        We cordially invite you to visit <span class="company-name">Best Power Equipments (BPE)</span> at the premier data center event in the region, Data Center World Asia 2025 in Singapore.
+      </p>
+      <p>
+        This is your opportunity to gain in-depth insights into our newly developed, future-ready power and DC infrastructure solutions. We will showcase how our innovations are specifically tailored to capture the evolving AI landscape while providing robust support for your sustainable and mission-critical operations.
+      </p>
+
+      <div class="event-info">
+        <div class="event-date">8 - 9 OCTOBER 2025</div>
+        <div class="time-location">Marina Bay Sands Expo And Convection Center, Singapore | 09:00 AM – 05:00 PM</div>
+        <div class="booth">VISIT US AT BOOTH #K120</div>
+      </div>
+
+      <a class="register-button" href="https://www.gevme.com/DCWA25/?utm_source=exhibitor&utm_medium=006Py00000Cs7wrIAB&utm_campaign=BestPowerEquipmentsSingapore" target="https://www.gevme.com/DCWA25/?utm_source=exhibitor&utm_medium=006Py00000Cs7wrIAB&utm_campaign=BestPowerEquipmentsSingapore">Register Now</a>
+
+      <hr style="border: 0; border-top: 1px solid #ddd; margin: 30px 0;">
+
+      <h2>Why Visit <span class="company-name">BPE</span>?</h2>
+      
+      <p class="p-center" style="margin-bottom: 10px;">
+        <span class="company-name">BPE</span> is in the must-visit category of exhibitors at DCWA 2025. Discover solutions designed for the future of Data Centers:
+      </p>
+
+      <div class="features">
+        <div class="feature-box">
+          <ul>
+            <li><strong>Scalable UPS Solutions</strong> for High-Density AI Racks</li>
+          </ul>
+        </div>
+        <div class="feature-box">
+          <ul>
+            <li><strong>Integrated Modular</strong> Data Center Systems</li>
+          </ul>
+        </div>
+        <div class="feature-box">
+          <ul>
+            <li><strong>End-to-End Power & Cooling</strong> Infrastructure</li>
+          </ul>
+        </div>
+        <div class="feature-box">
+          <ul>
+            <li>Commitment to <strong>Sustainable Energy</strong> Technology</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr style="border: 0; border-top: 1px solid #ddd; margin: 30px 0;">
+
+      <div class="section-title">About <span class="company-name">Best Power Equipments (BPE)</span></div>
+      <div class="about-text">
+     <span class="company-name">Best Power Equipments (BPE)</span> is a recognized leader in end-to-end power and DC infrastructure solutions, with a strengthened presence across <strong>20+ countries</strong>. With over <strong>25 years of expertise</strong>, <span class="company-name">BPE</span> delivers scalable, reliable, and future-ready solutions critical to the world's most demanding industries.
+     <br /><br />
+     Our portfolio successfully serves clients in data centers, airports, gigafabs, government, and large-scale manufacturing, including successful project execution for multi-MW data center deployments and modular power solutions.
+      </div>
+      <a class="website-button" target="https://bpee.com/" href="https://bpee.com/">Explore BPE Solutions</a>
+     </div> 
+      <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+
+         <div class="section-title">You will Get the Opportunity to Explore these Solution's</div>
+  <!-- Image 1 -->
+  <div style="border: 2px solid #00b050; border-radius: 8px; padding: 10px; width: 150px; height: 150px; text-align: center;">
+    <img src="images\BESS.png" alt="BESS" style="width: 120px; height: 120px; object-fit: contain;" />
+    <div style="margin-top: 10px; font-weight: bold; color: #006400;">BESS</div>
+  </div>
+
+  <!-- Image 2 -->
+  <div style="border: 2px solid #00b050; border-radius: 8px; padding: 10px; width: 150px; height: 150px; text-align: center;">
+    <img src="images\nrgxx.jpg" alt="NRGX" style="width: 120px; height: 120px; object-fit: contain;" />
+    <div style="margin-top: 10px; font-weight: bold; color: #006400;">NRGX</div>
+  </div>
+
+  <!-- Image 3 -->
+  <div style="border: 2px solid #00b050; border-radius: 8px; padding: 10px; width: 150px; height: 150px; text-align: center;">
+    <img src="images\ps100.png" alt="PS 100" style="width: 120px; height: 120px; object-fit: contain;" />
+    <div style="margin-top: 10px; font-weight: bold; color: #006400;">PS 100</div>
+  </div>
+
+  <!-- Image 4 -->
+  <div style="border: 2px solid #00b050; border-radius: 8px; padding: 10px; width: 150px; height: 180px; text-align: center;">
+    <img src="images\nrgxwallmounted-removebg-preview.png" alt="NRGX Wallmounted" style="width: 120px; height: 120px; object-fit: contain;" />
+    <div style="margin-top: 10px; font-weight: bold; color: #006400;">NRGX Wallmount</div>
+  </div>
+   <div style="border: 2px solid #00b050; border-radius: 8px; padding: 10px; width: 150px; height: 180px; text-align: center;">
+    <img src="images\Li_ion_battery_48V_100AH-removebg-preview.png" alt="NRGX Wallmounted" style="width: 120px; height: 120px; object-fit: contain;" />
+    <div style="margin-top: 10px; font-weight: bold; color: #006400;">LI-ION Battery</div>
+  </div>
+
+</div>
+ 
+    <div class="footer">
+      <span class="company-name" style="color: #ffc107;"> BPE</span> Pte. Ltd.<br />
+      Address: 60, Paya Lebar Road, #09-43, Paya Lebar Square, Singapore - 409051<br />
+      Email: <a href="mailto:marketing@bpesolutions.com">marketing@bpesolutions.com</a> | Phone: +91 9289844866
+    </div>
+  </div>
+</body>
+</html>
